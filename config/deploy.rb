@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-server '143.244.176.155', port: 22, roles: [:web, :app, :db], primary: true
+#server '143.244.176.155', port: 22, roles: [:web, :app, :db], primary: true
 set :application, "myapp"
 set :repo_url, "git@github.com:menoelpis/myapp.git"
 
